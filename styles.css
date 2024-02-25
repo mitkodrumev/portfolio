@@ -1,0 +1,149 @@
+body {
+    background: #2e2d2d;
+    font-family: 'Raleway', sans-serif;
+}
+
+img {
+    width: 30%;
+    /* margin: 1.6666666%; */
+    margin: calc(10%/6);
+}
+h1 {
+    text-align: center;
+    color: aliceblue;
+    font-weight: 200;
+}
+
+
+nav {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.7em;
+    text-transform: uppercase;
+    text-align: center;
+  
+    width: 100%;
+    margin-left: calc(10%/6);
+    padding: 4.2em 0;
+    color: aliceblue;
+}
+#mainNavbar {
+    font-size: 1.1rem;
+    font-weight: 100;    
+}
+
+#mainNavbar .nav-link {
+    color: rgb(182, 178, 178);
+}
+
+#mainNavbar .nav-link:hover {
+    color: #eb099f;
+}
+
+#mainNavbar .navbar-brand {
+    color: rgb(182, 178, 178);
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+#headingGroup span {
+    color: #eb099f;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.navbar.scrolled {
+    background: rgb(189, 168, 134);
+    transition: background 500ms;
+}
+.container {
+    
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    /*justify-content: center;
+    align-items: center;*/
+
+}
+
+.container iframe {
+  
+    flex: 0 0 33.333333%;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+footer {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: left;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    box-sizing: border-box;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-icons i {
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    .blurb h2 {
+        font-size: 2rem;
+    }
+    #name{
+        
+        margin-top: 30%;
+        margin-bottom: 0;
+        
+    }
+    .container {
+        display: block;
+        text-align: center;
+        
+}
+img {
+    max-width: 460px;
+	width: 100%;
+	height: auto;
+    display: block;
+    margin:10px auto;
+    padding: 10px;
+    
+}
+footer p{
+    margin-bottom: 0;
+}
+}
+
+@media screen and (max-width: 768px){
+
+    .container iframe {
+        max-width: 460px;
+        width: 100%;
+        height: auto;
+        display: block;
+        margin:40px auto;
+        padding-bottom: 20px;
+        
+    }
+    
+}
