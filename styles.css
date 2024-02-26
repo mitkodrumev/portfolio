@@ -59,16 +59,33 @@ nav {
     transition: background 500ms;
 }
 .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-link {
+    width: 30%;
+    margin: calc(10% / 6);
+    text-decoration: none;
+    color: inherit;
+}
+
+.image-link img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.container2 {
     
     display: flex;
     flex-wrap: wrap;
-    padding-left: 0;
-    /*justify-content: center;
-    align-items: center;*/
+    justify-content: center;
+   
 
 }
 
-.container iframe {
+.container2 iframe {
   
     flex: 0 0 33.333333%;
     padding: 20px;
